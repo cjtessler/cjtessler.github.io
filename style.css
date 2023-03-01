@@ -7,6 +7,11 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: rgb(191, 245, 255);
   background: radial-gradient(
     circle,
@@ -16,12 +21,8 @@ body {
 }
 
 .flex-container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: auto;
 }
-
 .content-wrapper {
   position: relative;
 }
@@ -82,4 +83,11 @@ a:has(> img) {
   font-size: 0.8rem;
   margin: 0;
   padding: 0;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  height: 2rem;
 }
