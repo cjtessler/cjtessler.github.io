@@ -52,8 +52,12 @@ body {
 .social-container {
   margin: 1rem 0;
   display: flex;
-  gap: 12px;
+  gap: 1.5rem;
   justify-content: center;
+}
+
+a:has(> img) {
+  display: inherit;
 }
 
 .line {
